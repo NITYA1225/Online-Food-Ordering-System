@@ -1,0 +1,6 @@
+package com.foodorder;
+public class CashPayment Payment implements Payment {
+      public void pay(double amount) {
+      System.out.println("Paid Rs"+ amount+"via cash.");
+      }
+}
